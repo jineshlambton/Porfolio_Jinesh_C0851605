@@ -171,3 +171,49 @@ footer
 }
 
 
+
+
+/*Mobile response*/
+@media only screen and (max-width: 530px){
+
+  .topnav {
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 300px;
+  }
+
+  
+  
+  .topnav a {
+    float: left;
+    padding: 8px 15px;
+    text-decoration: underline;
+    font-size: 10px;
+  }
+
+
+  .avatar {
+    /* Rounded border */
+    height: 70%;
+    width: 70%;
+    margin-left: 120px;
+    margin-top: 10%;
+}
+  
+  .avatar__image{
+   
+    margin-top: 12%;
+      width: 70%;
+      height: 70%;
+  }
+
+
+  .elevatorpitch{
+    margin-top: 10%;
+    width: 80%;
+    font-size: 1rem;
+    
+  }
+}
+
+

@@ -3,7 +3,7 @@ body {
     }
 
     .container {
-    position: fixed;
+    position: initial;
 }
 
 .container__wrapper {
@@ -215,6 +215,55 @@ footer
 
   #send{
     width: 30%;
+  }
+
+}
+
+
+
+/*Mobile Response*/
+@media only screen and (max-width: 530px){
+
+  .topnav {
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 300px;
+  }
+
+  
+  
+  .topnav a {
+    float: left;
+    padding: 8px 15px;
+    text-decoration: underline;
+    font-size: 10px;
+  }
+
+
+  .personal_info{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    font-size: .8rem;
+    width: 80%;
+  }
+
+  p.containt{
+    font-size: 14px;
+  }
+
+
+  .input{
+    width: 80%;
+  }
+
+  #msg
+  {
+    width: 80%;
+  }
+
+  #send{
+    width: 25%;
   }
 
 }
