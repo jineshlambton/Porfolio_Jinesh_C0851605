@@ -3,18 +3,18 @@ body {
     }
   
 .container {
-    position: relative;
+    position: initial;
 }
 
 .container__wrapper {
     /* Displayed at the top left corner */
     left: 0px;
-    position: absolute;
+    position: fixed;
     top: 0px;
 
     /* Size */
     height: 100px;
-    width: 10   0px;
+    width: 100px;
 
     /* Hide the part of its children which is displayed outside */
     overflow: hidden;
@@ -125,6 +125,49 @@ footer
   margin-bottom: 2%;
   margin-left: 2%;
 
+}
+
+
+
+/*Tablet response*/
+@media only screen and (max-width: 800px){
+
+  .topnav {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+  }
+
+  
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 11px 20px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+ 
+
+
+  
+  
+  .avatar__image{
+      margin-left: auto;
+      margin-top: 10%;
+      width: 80%;
+      height: 80%;
+  }
+
+
+  .elevatorpitch{
+    margin-top: 10%;
+    width: 90%;
+    font-size: 1.3rem;
+    
+  }
 }
 
 
