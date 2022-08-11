@@ -47,7 +47,7 @@ body {
 
 .elevatorpitch {
    
-    margin-top:10%;
+    margin-top:5%;
     margin-right: auto;
     margin-left: auto;
     background-color: lightgrey;
@@ -60,6 +60,7 @@ body {
     box-shadow: 8px 8px #888888 ;
     font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
   }
 
   
@@ -92,5 +93,28 @@ body {
     background-color: #1B2430;
     color: whitesmoke;
   }
+
+  /*For Avtar*/
+
+  .avatar {
+    /* Rounded border */
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+
+.avatar__image {
+    /* Rounded border */
+    border-radius: 50%;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+}
+
 
 
