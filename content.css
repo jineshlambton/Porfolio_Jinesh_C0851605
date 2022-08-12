@@ -2,51 +2,10 @@ body {
     background-color: #DBF9FC;
     }
 
-    .container {
-    position: initial;
-}
-
-.container__wrapper {
-    /* Displayed at the top left corner */
-    left: 0px;
-    position: fixed;
-    top: 0px;
-
-    /* Size */
-    height: 100px;
-    width: 10   0px;
-
-    /* Hide the part of its children which is displayed outside */
-    overflow: hidden;
-}
-
-.container__ribbon {
-    /* Position */
-    left: -50px;
-    position: fixed;
-    top: 50px;
-
-    /* Size */
-    height: 24px;
-    width: 206px;
-
-    /* Displayed diagonally */
-    transform: rotate(-45deg);
-
-    /* Background color */
-    background-color:lightgrey;
-
-    /* Centerize the text content */
-    text-align: center;
-
-    font-size: 1.2rem;
-    color: black;
-
-}
+    
 
 
- 
- /* /For Navigation Drawer/ */
+/* /For Navigation Drawer/ */
 .topnav {
   display: flex;
   justify-content: center;
@@ -187,22 +146,10 @@ footer
 /*Tablet response*/
 @media only screen and (max-width: 800px){
 
-  .topnav {
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 350px;
-  }
-
-  
-  
-  .topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 11px 20px;
-    text-decoration: none;
-    font-size: 12px;
+  .topnav ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: bold;
   }
 
   .personal_info{
@@ -235,20 +182,36 @@ footer
 /*Mobile Response*/
 @media only screen and (max-width: 530px){
 
-  .topnav {
-    margin-top: 30px;
-    margin-left: 100px;
-    width: 300px;
-  }
 
-  
-  
-  .topnav a {
-    float: left;
-    padding: 8px 15px;
-    text-decoration: underline;
-    font-size: 10px;
+
+  .topnav ul li a{
+    text-decoration: none;
+    padding: 1px 5px;
+    font-size: .5rem;
+    width: auto;
   }
+  
+    .topnav {
+      margin-top: 30px;
+      margin-left: 100px;
+      width: auto;
+      height: 30px;
+
+      margin-left: auto;
+      margin-right: auto;
+    
+    }
+  
+    
+    
+    .topnav a {
+      float: left;
+      padding: 1px 1px;
+      text-decoration: underline;
+      font-size: 10px;
+     
+    }
+
 
 
   .personal_info{
@@ -258,7 +221,9 @@ footer
     font-size: .8rem;
     width: 80%;
   }
-
+  .containt{
+    margin-right: 10px;
+  }
   p.containt{
     font-size: 14px;
   }
@@ -277,6 +242,9 @@ footer
     width: 25%;
   }
 
+  footer{
+    font-size: .8rem;
+  }
 }
 
 
